@@ -12,11 +12,11 @@ const HeroText = () => {
       <p className="text-lg mt-4 text-white">
         I'm a curious and passion-driven developer from Orlando, FL
         <br />
-        with a strong interest in artificial intelligence, machine learning,
+        with a strong interest in Artificial Intelligence, Machine Learning,
         <br />
-        and software engineering — and a growing curiosity for full-stack
+        and Software Engineering — and a growing curiosity for Full-Stack
         <br />
-        development.
+        Development.
       </p>
     </div>
   );
