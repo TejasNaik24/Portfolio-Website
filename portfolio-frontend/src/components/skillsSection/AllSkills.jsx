@@ -1,15 +1,26 @@
 import React from "react";
+import { FaPython } from "react-icons/fa";
+import { SiCplusplus } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaSwift } from "react-icons/fa";
 import SingleSkill from "./SingleSkill";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
+  {
+    skill: "Python",
+    icon: FaPython,
+  },
+  {
+    skill: "C++",
+    icon: SiCplusplus,
+  },
   {
     skill: "HTML",
     icon: FaHtml5,
@@ -33,6 +44,10 @@ const skills = [
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "Swift",
+    icon: FaSwift,
   },
 ];
 

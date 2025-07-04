@@ -6,8 +6,14 @@ import { FaGithub } from "react-icons/fa";
 const ContactSocial = () => {
   return (
     <div className="flex gap-4">
-      <SingleContactSocial link="#" Icon={FaLinkedin} />
-      <SingleContactSocial link="#" Icon={FaGithub} />
+      <SingleContactSocial
+        link="https://www.linkedin.com/in/tejas-naik2028"
+        Icon={FaLinkedin}
+      />
+      <SingleContactSocial
+        link="https://github.com/TejasNaik24"
+        Icon={FaGithub}
+      />
     </div>
   );
 };

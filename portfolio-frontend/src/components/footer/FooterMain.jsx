@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const links = [
   { link: "Home", section: "home" },
@@ -19,12 +20,16 @@ const FooterMain = () => {
           {links.map((item, index) => {
             return (
               <li key={index}>
-                <a
-                  href="#"
+                <Link
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-120}
+                  to={item.section}
                   className="hover:text-white transition-all duration-500 cursor-pointer"
                 >
                   {item.link}
-                </a>
+                </Link>
               </li>
             );
           })}
