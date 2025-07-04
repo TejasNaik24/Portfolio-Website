@@ -4,6 +4,7 @@ import HelperSection from "./components/HelperSection";
 import HeroGradient from "./components/heroSection/HeroGradient";
 import HeroMain from "./components/heroSection/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
+import ProjectsMain from "./components/projectsSection/ProjectsMain";
 import SkillsMain from "./components/skillsSection/SkillsMain";
 import SubSkills from "./components/skillsSection/SubSkills";
 
@@ -16,6 +17,7 @@ function App() {
       <SkillsMain />
       <SubSkills />
       <ExperienceMain />
+      <ProjectsMain />
       <HelperSection />
     </main>
   );
