@@ -1,8 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
 
 const SingleProject = ({ name }) => {
   return (
-    <div className="flex w-full sm:flex-col-reverse items-center gap-8 justify-end">
+    <motion.div
+      variants={fadeIn("up", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0 }}
+      className="flex w-full sm:flex-col-reverse items-center gap-8 justify-end"
+    >
       <div>
         <h2 className="md:text-3xl sm:text-2xl text-orange">{name}</h2>
         <h2 className="text-xl font-thin text-white font-special sm:text-center">
@@ -19,7 +27,7 @@ const SingleProject = ({ name }) => {
         <div className="w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden"></div>
         <img alt="cool" className="w-full h-full" />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
