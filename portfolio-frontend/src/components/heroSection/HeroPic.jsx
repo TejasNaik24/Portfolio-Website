@@ -6,7 +6,7 @@ import { fadeIn } from "../../framerMotion/variants";
 const HeroPic = () => {
   return (
     <motion.div
-      variants={fadeIn("left", 0.2)}
+      variants={fadeIn("left", 0.4)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0 }}

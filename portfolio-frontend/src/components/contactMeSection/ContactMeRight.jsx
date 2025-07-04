@@ -13,7 +13,7 @@ const ContactMeRight = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
       >
-        <img src="../email.png" alt="Email Image" className="max-w-[300px]" />
+        <img src="./email.png" alt="Email Image" className="max-w-[300px]" />
       </motion.div>
       <ContactInfo />
 
