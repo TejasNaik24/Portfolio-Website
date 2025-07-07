@@ -15,7 +15,7 @@ const EducationMain = () => {
       >
         <EducationText />
       </motion.div>
-      <div className="flex flex-col md:flex-row justify-center items-center mt-14 gap-y-8 md:gap-x-36 lg:gap-x-48 xl:gap-x-64 2xl:gap-x-96 pl-36">
+      <div className="flex flex-col md:flex-row justify-center items-center mt-10 gap-y-8 md:gap-x-36 lg:gap-x-48 xl:gap-x-64 2xl:gap-x-96 pl-2 md:pl-36">
         <EducationLeft />
         <EducationRight />
       </div>

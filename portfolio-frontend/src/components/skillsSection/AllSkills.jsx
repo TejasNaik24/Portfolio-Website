@@ -127,67 +127,59 @@ const AllSkills = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="flex flex-col items-center relative"
+        className="flex flex-wrap gap-3 justify-center"
       >
-        <div className="flex gap-3">
-          <button
-            onClick={setLanguages}
-            disabled={showLanguages}
-            className={`px-4 py-2 rounded-full text-xl sm:px-3 sm:py-1.5 sm:text-base
-    md:px-4 md:py-2 md:text-xl font-bold text-white border flex items-center gap-1 transition-all duration-500
-              ${
-                showLanguages
-                  ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
-                  : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
-              }
-              `}
-          >
-            Languages
-          </button>
-          <button
-            onClick={setLibrariesFrameworks}
-            disabled={showLibrariesFrameworks}
-            className={`px-4 py-2 rounded-full text-xl sm:px-3 sm:py-1.5 sm:text-base
-    md:px-4 md:py-2 md:text-xl font-bold text-white border flex items-center gap-1 transition-all duration-500
-              ${
-                showLibrariesFrameworks
-                  ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
-                  : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
-              }
-              `}
-          >
-            Libraries/Frameworks
-          </button>
-          <button
-            onClick={setdevloperTools}
-            disabled={showdevloperTools}
-            className={`px-4 py-2 rounded-full text-xl sm:px-3 sm:py-1.5 sm:text-base
-    md:px-4 md:py-2 md:text-xl font-bold text-white border flex items-center gap-1 transition-all duration-500
-              ${
-                showdevloperTools
-                  ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
-                  : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
-              }
-              `}
-          >
-            Devloper Tools
-          </button>
-        </div>
+        <button
+          onClick={setLanguages}
+          disabled={showLanguages}
+          className={`w-24 sm:w-auto px-3 py-1 rounded-full text-sm sm:px-4 sm:py-2 sm:text-base md:px-5 md:py-3 md:text-lg font-bold text-white border flex items-center gap-1 transition-all duration-500
+            ${
+              showLanguages
+                ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
+                : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
+            }
+            `}
+        >
+          Languages
+        </button>
+        <button
+          onClick={setLibrariesFrameworks}
+          disabled={showLibrariesFrameworks}
+          className={`w-40 sm:w-auto px-3 py-1 rounded-full text-sm sm:px-4 sm:py-2 sm:text-base md:px-5 md:py-3 md:text-lg font-bold text-white border flex items-center gap-1 transition-all duration-500
+            ${
+              showLibrariesFrameworks
+                ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
+                : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
+            }
+            `}
+        >
+          Libraries/Frameworks
+        </button>
+        <button
+          onClick={setdevloperTools}
+          disabled={showdevloperTools}
+          className={`w-32 sm:w-auto px-3 py-1 rounded-full text-sm sm:px-4 sm:py-2 sm:text-base md:px-5 md:py-3 md:text-lg font-bold text-white border flex items-center gap-1 transition-all duration-500
+            ${
+              showdevloperTools
+                ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
+                : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
+            }
+            `}
+        >
+          Devloper Tools
+        </button>
       </motion.div>
       <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 my-20">
         {showLanguages &&
           languages.map((item, index) => (
             <motion.div
+              key={index}
               variants={fadeIn("up", `0.${index}`)}
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0 }}
             >
-              <SingleSkill
-                key={index}
-                text={item.skill}
-                imgSvg={<item.icon />}
-              />
+              <SingleSkill text={item.skill} imgSvg={<item.icon />} />
             </motion.div>
           ))}
       </div>
@@ -196,16 +188,13 @@ const AllSkills = () => {
         {showLibrariesFrameworks &&
           librariesFrameworks.map((item, index) => (
             <motion.div
+              key={index}
               variants={fadeIn("up", `0.${index}`)}
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0 }}
             >
-              <SingleSkill
-                key={index}
-                text={item.skill}
-                imgSvg={<item.icon />}
-              />
+              <SingleSkill text={item.skill} imgSvg={<item.icon />} />
             </motion.div>
           ))}
       </div>
@@ -214,16 +203,13 @@ const AllSkills = () => {
         {showdevloperTools &&
           devloperTools.map((item, index) => (
             <motion.div
+              key={index}
               variants={fadeIn("up", `0.${index}`)}
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0 }}
             >
-              <SingleSkill
-                key={index}
-                text={item.skill}
-                imgSvg={<item.icon />}
-              />
+              <SingleSkill text={item.skill} imgSvg={<item.icon />} />
             </motion.div>
           ))}
       </div>
