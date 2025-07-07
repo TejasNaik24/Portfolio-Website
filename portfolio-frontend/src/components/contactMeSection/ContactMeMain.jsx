@@ -1,4 +1,3 @@
-import React from "react";
 import ContactMeLeft from "./ContactMeLeft";
 import ContactMeRight from "./ContactMeRight";
 import { motion } from "framer-motion";

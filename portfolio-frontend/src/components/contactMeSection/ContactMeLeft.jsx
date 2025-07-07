@@ -1,4 +1,3 @@
-import React from "react";
 import ContactForm from "./ContactForm";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";

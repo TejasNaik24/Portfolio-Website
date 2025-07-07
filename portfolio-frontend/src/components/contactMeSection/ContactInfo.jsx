@@ -1,4 +1,3 @@
-import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
@@ -15,7 +14,9 @@ const ContactInfo = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
       >
-        <SingleInfo text="naik.tejas11@gmail.com" Image={HiOutlineMail} />
+        <a href="mailto:naik.tejas11@gmail.com">
+          <SingleInfo text="naik.tejas11@gmail.com" Image={HiOutlineMail} />
+        </a>
       </motion.div>
 
       <motion.div

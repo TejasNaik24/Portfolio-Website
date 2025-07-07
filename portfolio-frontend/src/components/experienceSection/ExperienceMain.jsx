@@ -1,4 +1,3 @@
-import React from "react";
 import ExperienceText from "./ExperienceText";
 import AllExperience from "./AllExperience";
 import { motion } from "framer-motion";

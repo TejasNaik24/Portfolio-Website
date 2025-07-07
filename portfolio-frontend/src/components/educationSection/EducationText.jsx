@@ -1,5 +1,3 @@
-import React from "react";
-
 const EducationText = () => {
   return (
     <div className="flex flex-col items-center mt-[100px] ">

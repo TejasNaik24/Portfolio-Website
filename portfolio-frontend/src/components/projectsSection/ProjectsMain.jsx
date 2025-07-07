@@ -1,4 +1,3 @@
-import React from "react";
 import SingleProject from "./SingleProject";
 import ProjectsText from "./ProjectsText";
 import { motion } from "framer-motion";

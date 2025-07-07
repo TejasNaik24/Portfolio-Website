@@ -1,4 +1,3 @@
-import React from "react";
 import EducationText from "./EducationText";
 import EducationLeft from "./EducationLeft";
 import EducationRight from "./EducationRight";

@@ -1,4 +1,3 @@
-import React from "react";
 import NavbarLogo from "./NavbarLogo";
 import NavbarLinks from "./NavbarLinks";
 import { GiHamburgerMenu } from "react-icons/gi";

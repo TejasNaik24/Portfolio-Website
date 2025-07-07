@@ -1,4 +1,3 @@
-import React from "react";
 import ContactInfo from "./ContactInfo";
 import ContactSocial from "./ContactSocial";
 import { motion } from "framer-motion";
