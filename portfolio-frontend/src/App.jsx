@@ -1,4 +1,3 @@
-import "./App.css";
 import ContactMeMain from "./components/contactMeSection/ContactMeMain";
 import EducationMain from "./components/educationSection/EducationMain";
 import ExperienceMain from "./components/experienceSection/ExperienceMain";
