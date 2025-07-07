@@ -6,6 +6,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaHtml5 } from "react-icons/fa";
+import { IoLogoDocker } from "react-icons/io5";
 import { SiNumpy } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -14,7 +15,15 @@ const projects = [
   {
     image: "./TennisBall.png",
     name: "Tennis-Coach-AI",
-    techStack: [FaReact, SiTypescript, FaCss3Alt, FaPython, IoLogoJavascript, FaHtml5],
+    techStack: [
+      FaReact,
+      SiTypescript,
+      FaCss3Alt,
+      FaPython,
+      IoLogoJavascript,
+      FaHtml5,
+      IoLogoDocker,
+    ],
     description:
       "Tennis Coach AI is a voice-enabled virtual assistant built with React, TypeScript, and Flask. It uses speech recognition and the Hugging Face API to provide real-time tennis coaching through natural, interactive voice conversations. Fully Dockerized for easy deployment.",
     gitHubLink: "https://github.com/TejasNaik24/Tennis-Coach-AI",
