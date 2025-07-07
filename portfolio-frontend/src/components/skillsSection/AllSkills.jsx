@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { FaPython } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
@@ -19,7 +20,6 @@ import { SiPostman } from "react-icons/si";
 import SingleSkill from "./SingleSkill";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import { useState } from "react";
 
 const languages = [
   {

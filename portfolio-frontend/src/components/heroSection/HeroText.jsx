@@ -28,7 +28,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4 text-white"
+        className="text-lg mt-4"
       >
         I'm a curious and passion-driven developer from Orlando, FL
         <br />
