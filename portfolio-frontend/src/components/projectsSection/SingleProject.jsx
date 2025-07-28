@@ -36,6 +36,7 @@ const SingleProject = ({ project }) => {
           <a
             href={project.demoLink}
             className="text-3xl flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer"
+            target="_blank"
           >
             <LuLink />
           </a>
