@@ -6,6 +6,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaHtml5 } from "react-icons/fa";
+import { SiCplusplus } from "react-icons/si";
 import { IoLogoDocker } from "react-icons/io5";
 import { SiNumpy } from "react-icons/si";
 import { motion } from "framer-motion";
@@ -47,6 +48,16 @@ const projects = [
     gitHubLink: "https://github.com/TejasNaik24/NeuralNetwork-From-Scratch",
     demoLink:
       "https://drive.google.com/file/d/1YpVzB6VQXRyj1WNqQmXgUmp_3Y6uaZax/view",
+  },
+  {
+    image: "./Personal_Finance_Tracker.png",
+    name: "Personal Finance Tracker",
+    techStack: [SiCplusplus],
+    description:
+      "A personal finance tracker built in C++ with object-oriented design. Users can manage income and expenses by month, view financial summaries, and export data to CSV. Includes file I/O, menu-driven interaction, and input validation for a smooth command-line experience.",
+    gitHubLink: "https://github.com/TejasNaik24/Personal-Finance-Tracker",
+    demoLink:
+      "https://drive.google.com/file/d/1nWzTE9D0tjEIfbEN6k0OqfCOIK7urn3Y/view",
   },
 ];
 
