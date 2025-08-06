@@ -2,7 +2,7 @@
 
 My personal portfolio website showcasing my projects, skills, and experience in computer science and software engineering. The site features an interactive UI with smooth animations and responsive design to provide an engaging user experience across devices.
 
-## check out my website [here](https://tejasnaik.vercel.app)!
+## check out my website [here](https://tejasnaik.net)!
 
 ## Technologies Used
 
@@ -31,3 +31,4 @@ My personal portfolio website showcasing my projects, skills, and experience in 
 ## Home Image
 
 <img width="1484" alt="Screenshot 2025-07-07 at 1 36 44 AM" src="https://github.com/user-attachments/assets/e7cec3c0-0e88-4db9-a0ed-34b1df471ab8" />
+
