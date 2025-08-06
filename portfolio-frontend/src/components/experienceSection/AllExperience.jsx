@@ -2,6 +2,19 @@ import SingleExperience from "./SingleExperience";
 
 const experiences = [
   {
+    icon: "./Live150.png",
+    job: "AI Intern",
+    company: "Live 150",
+    date: "July 2025 - Present",
+    responsibilities: [
+      "Developing full-stack web features using Next.js for frontend and Python Flask for backend to enhance the Live150 app’s capabilities.",
+      "Integrating and fine-tuning large language models (LLMs) with OpenAI APIs to enable AI-powered functionalities and improve user experience.",
+      "Collaborating on AI-driven solutions that leverage natural language processing and machine learning techniques within the app ecosystem.",
+      "Building scalable, maintainable code while learning best practices in AI application development and deployment.",
+      "Working closely with the engineering team to bridge frontend and backend development focused on AI integrations.",
+    ],
+  },
+  {
     icon: "./Create&Learn.png",
     job: "Computer Science Instructor",
     company: "Create & Learn",
@@ -31,7 +44,7 @@ const experiences = [
 
 const AllExperience = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col flex-wrap items-center justify-center gap-x-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6">
       {experiences.map((experience, index) => {
         return <SingleExperience key={index} experience={experience} />;
       })}

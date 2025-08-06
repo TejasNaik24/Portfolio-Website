@@ -9,7 +9,7 @@ const SingleExperience = ({ experience }) => {
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
     >
-      <div className="md:h-[650px] md:w-[240px] sm:h-auto sm:w-full border-2 border-orange border-dashed rounded-2xl mt-12 p-4 hover:bg-lightBrown bg-darkBrown transition-all duration-500">
+      <div className="w-full border-2 border-orange border-dashed rounded-2xl p-4 hover:bg-lightBrown bg-darkBrown transition-all duration-500">
         <div className="flex items-start gap-3">
           <img
             src={experience.icon}
