@@ -1,21 +1,29 @@
 import { useState } from "react";
-import { FaPython } from "react-icons/fa";
-import { SiCplusplus } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
+import {
+  FaPython,
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaSwift,
+  FaJava,
+  FaGitAlt,
+} from "react-icons/fa";
+import {
+  SiCplusplus,
+  SiTypescript,
+  SiPytorch,
+  SiNumpy,
+  SiPandas,
+  SiPostman,
+  SiTensorflow,
+  SiNextdotjs,
+  SiScikitlearn,
+} from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { FaSwift } from "react-icons/fa";
-import { SiPytorch } from "react-icons/si";
-import { SiNumpy } from "react-icons/si";
-import { SiPandas } from "react-icons/si";
 import { FaNode } from "react-icons/fa6";
-import { IoLogoVue } from "react-icons/io5";
-import { FaGitAlt } from "react-icons/fa";
-import { IoLogoDocker } from "react-icons/io5";
-import { SiPostman } from "react-icons/si";
+import { IoLogoVue, IoLogoDocker } from "react-icons/io5";
+
 import SingleSkill from "./SingleSkill";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -45,12 +53,24 @@ const languages = [
     skill: "Swift",
     icon: FaSwift,
   },
+  {
+    skill: "Java",
+    icon: FaJava,
+  },
 ];
 
 const librariesFrameworks = [
   {
     skill: "PyTorch",
     icon: SiPytorch,
+  },
+  {
+    skill: "TensorFlow",
+    icon: SiTensorflow,
+  },
+  {
+    skill: "Scikit-learn",
+    icon: SiScikitlearn,
   },
   {
     skill: "Numpy",
@@ -71,6 +91,10 @@ const librariesFrameworks = [
   {
     skill: "Node.js",
     icon: FaNode,
+  },
+  {
+    skill: "Next.js",
+    icon: SiNextdotjs,
   },
   {
     skill: "React.js",
@@ -174,7 +198,7 @@ const AllSkills = () => {
           languages.map((item, index) => (
             <motion.div
               key={index}
-              variants={fadeIn("up", `0.${index}`)}
+              variants={fadeIn("up", index * 0.1)}
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0 }}
@@ -189,7 +213,7 @@ const AllSkills = () => {
           librariesFrameworks.map((item, index) => (
             <motion.div
               key={index}
-              variants={fadeIn("up", `0.${index}`)}
+              variants={fadeIn("up", index * 0.1)}
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0 }}
@@ -204,7 +228,7 @@ const AllSkills = () => {
           devloperTools.map((item, index) => (
             <motion.div
               key={index}
-              variants={fadeIn("up", `0.${index}`)}
+              variants={fadeIn("up", index * 0.1)}
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0 }}

@@ -2,6 +2,19 @@ import SingleExperience from "./SingleExperience";
 
 const experiences = [
   {
+    icon: "./OSUResearcher.png",
+    job: "AI/ML Researcher",
+    company: "The Ohio State University",
+    date: "August 2025 - Present",
+    responsibilities: [
+      "Developed an action-based video re-identification model in PyTorch for player identification across clips.",
+      "Applied Python and computer vision techniques, including object detection and tracking, to segment and identify basketball players.",
+      "Built a data annotation workflow with Grounded-DINO and SAM2 to create high-quality training datasets.",
+      "Contributed to research combining sports analytics and AI, translating theory into practical solutions.",
+      "Implemented and debugged deep learning models, training neural networks for video analysis.",
+    ],
+  },
+  {
     icon: "./Live150.png",
     job: "AI Intern",
     company: "Live 150",

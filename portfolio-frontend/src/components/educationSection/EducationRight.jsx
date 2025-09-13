@@ -48,7 +48,7 @@ const EducationRight = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-base lg:text-xl -mt-4"
       >
-        May 2027
+        May 2028
       </motion.p>
       <motion.p
         variants={fadeIn("up", 0.6)}

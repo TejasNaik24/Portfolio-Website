@@ -31,11 +31,11 @@ const HeroText = () => {
       >
         I'm a curious and passion-driven developer from Orlando, FL
         <br />
-        with a strong interest in Artificial Intelligence, Machine Learning,
+        with a strong interest in Artificial Intelligence and Machine Learning,
         <br />
-        and Software Engineering — and a growing curiosity for Full-Stack
+        exploring cutting-edge AI research and building intelligent AI systems
         <br />
-        Development.
+        to solve complex, real-world problems.
       </motion.p>
     </div>
   );
