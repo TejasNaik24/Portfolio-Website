@@ -45,7 +45,7 @@ const projects = [
     name: "Neural Network From Scratch",
     techStack: [FaPython, SiNumpy, SiStreamlit],
     description:
-      "A simple feedforward neural network built from scratch in Python using NumPy. Trained on the XOR dataset, it uses OOP for clean, modular code and implements forward and backpropagation with sigmoid activation and binary cross-entropy loss.",
+      "A simple feedforward neural network built from scratch in Python with NumPy, trained on the XOR dataset. Uses OOP for modular design, implements forward and backpropagation with sigmoid activation, and is deployed on Streamlit for interactive testing.",
     gitHubLink: "https://github.com/TejasNaik24/NeuralNetwork-From-Scratch",
     demoLink:
       "https://neural-network-from-scratch.streamlit.app",
