@@ -22,6 +22,7 @@ import {
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa6";
+import { SiStreamlit } from "react-icons/si";
 import { IoLogoVue, IoLogoDocker } from "react-icons/io5";
 
 import SingleSkill from "./SingleSkill";
@@ -71,6 +72,10 @@ const librariesFrameworks = [
   {
     skill: "Scikit-learn",
     icon: SiScikitlearn,
+  },
+  {
+    skill: "Streamlit",
+    icon: SiStreamlit,
   },
   {
     skill: "Numpy",
