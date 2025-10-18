@@ -9,6 +9,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
 import { IoLogoDocker } from "react-icons/io5";
 import { SiNumpy } from "react-icons/si";
+import { SiStreamlit } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -42,7 +43,7 @@ const projects = [
   {
     image: "./NN.png",
     name: "Neural Network From Scratch",
-    techStack: [FaPython, SiNumpy],
+    techStack: [FaPython, SiNumpy, SiStreamlit],
     description:
       "A simple feedforward neural network built from scratch in Python using NumPy. Trained on the XOR dataset, it uses OOP for clean, modular code and implements forward and backpropagation with sigmoid activation and binary cross-entropy loss.",
     gitHubLink: "https://github.com/TejasNaik24/NeuralNetwork-From-Scratch",
