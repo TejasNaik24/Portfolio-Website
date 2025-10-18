@@ -47,7 +47,7 @@ const projects = [
       "A simple feedforward neural network built from scratch in Python using NumPy. Trained on the XOR dataset, it uses OOP for clean, modular code and implements forward and backpropagation with sigmoid activation and binary cross-entropy loss.",
     gitHubLink: "https://github.com/TejasNaik24/NeuralNetwork-From-Scratch",
     demoLink:
-      "https://drive.google.com/file/d/1YpVzB6VQXRyj1WNqQmXgUmp_3Y6uaZax/view",
+      "https://neural-network-from-scratch.streamlit.app",
   },
   {
     image: "./Personal_Finance_Tracker.png",
