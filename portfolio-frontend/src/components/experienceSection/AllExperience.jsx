@@ -29,7 +29,7 @@ const experiences = [
   },
   {
     icon: "./Create&Learn.png",
-    job: "Computer Science Instructor",
+    job: "AI/CS Instructor",
     company: "Create & Learn",
     date: "June 2025 - Present",
     responsibilities: [
