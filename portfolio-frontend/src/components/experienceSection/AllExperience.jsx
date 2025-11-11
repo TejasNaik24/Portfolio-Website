@@ -20,11 +20,11 @@ const experiences = [
     company: "Live 150",
     date: "July 2025 - Present",
     responsibilities: [
-      "Developing full-stack web features using Next.js for frontend and Python Flask for backend to enhance the Live150 app’s capabilities.",
-      "Integrating and fine-tuning large language models (LLMs) with OpenAI APIs to enable AI-powered functionalities and improve user experience.",
-      "Collaborating on AI-driven solutions that leverage natural language processing and machine learning techniques within the app ecosystem.",
-      "Building scalable, maintainable code while learning best practices in AI application development and deployment.",
-      "Working closely with the engineering team to bridge frontend and backend development focused on AI integrations.",
+      "Architect and deploy Maya, an AI health coaching agent using Google’s Agent Development Kit (ADK) and Gemini 2.0 Flash models to deliver personalized guidance on nutrition, fitness, sleep, and metabolic health.",
+      "Develop production-ready REST APIs with FastAPI and Python, including secure authentication, session management, and conversation memory with SQLite databases for B2B integration.",
+      "Build multi-agent AI systems with specialized sub-agents that autonomously manage coaching tasks and incorporate real-time health data for evidence-based recommendations.",
+      "Design custom API endpoints to simplify complex agent orchestration, enabling seamless integration with B2B health portals while ensuring HIPAA-compliant data handling.",
+      "Leverage Google Gemini and OpenAI LLMs to create intelligent conversational experiences that analyze health data, identify patterns, and provide actionable insights for healthcare professionals.",
     ],
   },
   {
