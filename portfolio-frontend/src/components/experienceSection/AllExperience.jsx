@@ -7,11 +7,11 @@ const experiences = [
     company: "The Ohio State University",
     date: "August 2025 - Present",
     responsibilities: [
-      "Developing an action-based video re-identification model in PyTorch for player identification across clips.",
-      "Applied Python and computer vision techniques, including object detection and tracking, to segment and identify basketball players.",
-      "Built a data annotation workflow with Grounded-DINO and SAM2 to create high-quality training datasets.",
-      "Contributed to research combining sports analytics and AI, translating theory into practical solutions.",
-      "Implemented and debugged deep learning models, training neural networks for video analysis.",
+      "Conduct deep learning research with Dr. Wei-Lun “Harry” Chao, focusing on computer vision, object detection, and image segmentation using PyTorch.",
+      "Developed multi-model segmentation pipelines integrating YOLOv8, Grounding DINO, and SAM2 for high-precision detection and analysis",
+      "Built and optimized data preprocessing and annotation workflows with OpenCV, NumPy, and COCO-format datasets to improve model accuracy and efficiency.",
+      "Applied transformer and convolutional architectures to segment neural imaging data (IPS neurons), enhancing performance in complex visual environments.",
+      "Performed hyperparameter tuning and evaluation with mAP, IoU, and Dice metrics while collaborating on reproducible, interpretable, and deployment-ready AI research.",
     ],
   },
   {
