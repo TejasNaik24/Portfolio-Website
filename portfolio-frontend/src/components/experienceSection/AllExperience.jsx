@@ -24,7 +24,7 @@ const experiences = [
       "Building REST APIs with FastAPI and Python for B2B integration, implementing secure authentication, session management, and conversation memory systems with SQLite databases.",
       "Developing multi-agent AI systems with specialized sub-agents that autonomously manage coaching tasks and integrate real-time health tracking data for evidence-based recommendations.",
       "Designing API endpoints to simplify complex agent orchestration, enabling smooth integration with B2B health portals while maintaining HIPAA-compliant data handling practices.",
-      "Using Google Gemini and OpenAI LLMs to create conversational agents that analyze client health data, detect patterns, and deliver actionable coaching insights.",
+      "Using Google Gemini and OpenAI LLMs to create conversational agents that analyze client health data, detect patterns, and generate actionable insights.",
     ],
   },
   {
