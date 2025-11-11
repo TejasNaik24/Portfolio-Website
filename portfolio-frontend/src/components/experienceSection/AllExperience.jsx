@@ -7,11 +7,11 @@ const experiences = [
     company: "The Ohio State University",
     date: "August 2025 - Present",
     responsibilities: [
-      "Conduct deep learning research with Dr. Wei-Lun “Harry” Chao, focusing on computer vision, object detection, and image segmentation using PyTorch.",
-      "Developed multi-model segmentation pipelines integrating YOLOv8, Grounding DINO, and SAM2 for high-precision detection and analysis",
-      "Built and optimized data preprocessing and annotation workflows with OpenCV, NumPy, and COCO-format datasets to improve model accuracy and efficiency.",
-      "Applied transformer and convolutional architectures to segment neural imaging data (IPS neurons), enhancing performance in complex visual environments.",
-      "Performed hyperparameter tuning and evaluation with mAP, IoU, and Dice metrics while collaborating on reproducible, interpretable, and deployment-ready AI research.",
+      "Conducting deep learning research with Dr. Wei-Lun “Harry” Chao, focusing on computer vision, object detection, and image segmentation using PyTorch.",
+      "Developing multi-model segmentation pipelines integrating YOLOv8, Grounding DINO, and SAM2 for high-precision detection and analysis.",
+      "Building and optimizing data preprocessing and annotation workflows with OpenCV, NumPy, and COCO-format datasets to improve model accuracy and efficiency.",
+      "Applying transformer and convolutional architectures to segment neural imaging data (IPS neurons), enhancing performance in complex visual environments.",
+      "Performing hyperparameter tuning and evaluation with mAP, IoU, and Dice metrics while collaborating on reproducible, interpretable, and deployment-ready AI research.",
     ],
   },
   {
