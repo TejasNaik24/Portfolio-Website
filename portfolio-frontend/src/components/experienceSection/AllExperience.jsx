@@ -24,7 +24,7 @@ const experiences = [
       "Develop production-ready REST APIs with FastAPI and Python, including secure authentication, session management, and conversation memory with SQLite databases for B2B integration.",
       "Build multi-agent AI systems with specialized sub-agents that autonomously manage coaching tasks and incorporate real-time health data for evidence-based recommendations.",
       "Design custom API endpoints to simplify complex agent orchestration, enabling seamless integration with B2B health portals while ensuring HIPAA-compliant data handling.",
-      "Leverage Google Gemini and OpenAI LLMs to create intelligent conversational experiences that analyze health data, identify patterns, and provide actionable insights for healthcare professionals.",
+      "Using Google Gemini and OpenAI LLMs, create conversational experiences that analyze health data and provide actionable insights for healthcare professionals.",
     ],
   },
   {
