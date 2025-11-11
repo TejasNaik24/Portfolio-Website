@@ -20,11 +20,11 @@ const experiences = [
     company: "Live 150",
     date: "July 2025 - Present",
     responsibilities: [
-      "Architecting Maya, an AI health coach using Google ADK and Gemini 2.0 to provide personalized guidance on nutrition, fitness, sleep, and metabolic health.",
-      "Building REST APIs with FastAPI and Python for B2B integration, including secure authentication, session management, and conversation memory with SQLite.",
-      "Developing multi-agent AI systems that autonomously manage coaching tasks and integrate real-time health data for recommendations.",
-      "Designing API endpoints to simplify agent orchestration and enable HIPAA-compliant integration with B2B health portals.",
-      "Using Google Gemini and OpenAI LLMs to create conversational agents that analyze health data and deliver actionable insights.",
+      "Architecting Maya, an AI health coaching agent using Google ADK and Gemini 2.0 to deliver personalized guidance on nutrition, fitness, sleep, and overall metabolic health for diverse clients.",
+      "Building REST APIs with FastAPI and Python for B2B integration, implementing secure authentication, session management, and conversation memory systems with SQLite databases.",
+      "Developing multi-agent AI systems with specialized sub-agents that autonomously manage coaching tasks and integrate real-time health tracking data for evidence-based recommendations.",
+      "Designing API endpoints to simplify complex agent orchestration, enabling smooth integration with B2B health portals while maintaining HIPAA-compliant data handling practices.",
+      "Using Google Gemini and OpenAI LLMs to create intelligent conversational agents that analyze client health data, identify patterns, and provide actionable coaching insights.",
     ],
   },
   {
