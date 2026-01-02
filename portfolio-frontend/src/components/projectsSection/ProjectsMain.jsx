@@ -6,9 +6,12 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaHtml5 } from "react-icons/fa";
-import { SiCplusplus } from "react-icons/si";
+import {
+  SiNumpy,
+  SiPandas,
+  SiScikitlearn,
+} from "react-icons/si";
 import { IoLogoDocker } from "react-icons/io5";
-import { SiNumpy } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -51,14 +54,14 @@ const projects = [
       "https://neural-network-from-scratch.streamlit.app",
   },
   {
-    image: "./Personal_Finance_Tracker.png",
-    name: "Personal Finance Tracker",
-    techStack: [SiCplusplus],
+    image: "./NFL.png",
+    name: "NFL Predictor",
+    techStack: [FaPython, SiScikitlearn, SiPandas, SiNumpy, SiStreamlit],
     description:
-      "A personal finance tracker built in C++ with object-oriented design. Users can manage income and expenses by month, view financial summaries, and export data to CSV. Includes file I/O, menu-driven interaction, and input validation for a smooth command-line experience.",
-    gitHubLink: "https://github.com/TejasNaik24/Personal-Finance-Tracker",
+      "NFL Predictor uses dual Random Forest models to predict playoff brackets. Built with Python and Streamlit, it scrapes NFL data, engineers advanced features like Elo ratings and turnover margins, and simulates matchups from Wild Card to Super Bowl with interactive win probabilities.",
+    gitHubLink: "https://github.com/TejasNaik24/NFL-Predictor",
     demoLink:
-      "https://drive.google.com/file/d/1nWzTE9D0tjEIfbEN6k0OqfCOIK7urn3Y/view",
+      "https://nfl-predictor28.streamlit.app",
   },
 ];
 
