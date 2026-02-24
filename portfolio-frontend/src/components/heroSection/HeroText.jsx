@@ -11,7 +11,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl uppercase text-cyan"
       >
-        Aspiring AI/ML Engineer
+        Aspiring AI Researcher
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
