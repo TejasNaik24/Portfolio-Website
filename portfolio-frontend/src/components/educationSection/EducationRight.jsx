@@ -38,7 +38,7 @@ const EducationRight = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-base lg:text-xl text-lightGrey -mt-1"
       >
-        Minors: Business, Robotics and Autonomous Systems
+        Minor: Robotics and Autonomous Systems
       </motion.p>
 
       <motion.p
