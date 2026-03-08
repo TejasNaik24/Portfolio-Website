@@ -18,7 +18,7 @@ const experiences = [
     icon: "./Live150.png",
     job: "AI Intern",
     company: "Live 150",
-    date: "July 2025 - Present",
+    date: "July 2025 - December 2025",
     responsibilities: [
       "Architecting Maya, an AI health coaching agent using Google ADK and Gemini 2.0 to provide personalized insights on nutrition, fitness, sleep, and metabolic health.",
       "Building REST APIs with FastAPI and Python for B2B integration, including secure authentication, session management, and conversation memory with SQLite.",
