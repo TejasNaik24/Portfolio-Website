@@ -2,10 +2,12 @@ import { Link } from "react-scroll";
 
 const links = [
   { link: "Home", section: "home" },
-  { link: "Skills", section: "skills" },
+  { link: "Research", section: "research" },
   { link: "Experience", section: "experience" },
   { link: "Education", section: "education" },
   { link: "Projects", section: "projects" },
+  { link: "Publications", section: "publications" },
+  { link: "Skills", section: "skills" },
   { link: "Contact", section: "contact" },
 ];
 

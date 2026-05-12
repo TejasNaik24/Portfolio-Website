@@ -7,6 +7,8 @@ import HeroMain from "./components/heroSection/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
 import ProjectsMain from "./components/projectsSection/ProjectsMain";
 import SkillsMain from "./components/skillsSection/SkillsMain";
+import ResearchMain from "./components/researchSection/ResearchMain";
+import PublicationsMain from "./components/publicationsSection/PublicationsMain";
 
 function App() {
   return (
@@ -14,10 +16,12 @@ function App() {
       <NavbarMain />
       <HeroMain />
       <HeroGradient />
-      <SkillsMain />
+      <ResearchMain />
       <ExperienceMain />
       <EducationMain />
       <ProjectsMain />
+      <PublicationsMain />
+      <SkillsMain />
       <ContactMeMain />
       <FooterMain />
     </main>

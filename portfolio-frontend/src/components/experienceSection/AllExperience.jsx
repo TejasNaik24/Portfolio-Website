@@ -2,30 +2,6 @@ import SingleExperience from "./SingleExperience";
 
 const experiences = [
   {
-    icon: "./Nationwide.png",
-    job: "AI Research Intern",
-    company: "Nationwide Children's Hospital",
-    date: "April 2026 - Present",
-    responsibilities: [
-      "Building a production RAG pipeline integrating AWS Bedrock Knowledge Base with the DAPHNE clinical chatbot for semantic retrieval of community health resources supporting pediatric social needs navigation.",
-      "Engineering a multi-stage data pipeline including a custom web scraper with regex-based contact extraction, schema normalization, noise auditing, and automated S3 ingestion for Bedrock vector indexing.",
-      "Conducting empirical A/B experiments on LLM retrieval ranking behavior, discovering position-invariant recommendation properties that differ fundamentally from classical information retrieval systems.",
-      "Designing a dual-taxonomy routing system merging FindHelp and CAP4Kids category structures to enable condition-specific resource navigation across 24 pediatric health categories within a constrained latency budget.",],
-  },
-  {
-    icon: "./OSUResearcher.png",
-    job: "AI/ML Researcher",
-    company: "The Ohio State University",
-    date: "August 2025 - Present",
-    responsibilities: [
-      "Conducting deep learning research with Dr. Wei-Lun “Harry” Chao, focusing on computer vision, object detection, and image segmentation using PyTorch.",
-      "Developing multi-model segmentation pipelines integrating YOLOv8, Grounding DINO, and SAM2 for high-precision detection and analysis.",
-      "Building and optimizing data preprocessing and annotation workflows with OpenCV, NumPy, and COCO-format datasets to improve model accuracy and efficiency.",
-      "Applying transformer and convolutional architectures to segment neural imaging data (IPS neurons), enhancing performance in complex visual environments.",
-      "Performing hyperparameter tuning and evaluation with mAP, IoU, and Dice metrics while collaborating on reproducible, interpretable, and deployment-ready AI research.",
-    ],
-  },
-  {
     icon: "./Live150.png",
     job: "AI Intern",
     company: "Live 150",

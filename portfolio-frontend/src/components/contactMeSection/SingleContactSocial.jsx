@@ -3,6 +3,8 @@ const SingleContactSocial = ({ Icon, link }) => {
     <div className="text-2xl h-12 w-12 border border-orange text-orange rounded-full p-3 flex items-center justify-center ">
       <a
         href={link}
+        target="_blank"
+        rel="noopener noreferrer"
         className=" hover:text-cyan transition-all duration-500 cursor-pointer"
       >
         <Icon />

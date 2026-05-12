@@ -29,13 +29,13 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        I'm a curious and passion-driven developer from Orlando, FL
+        I'm an undergraduate AI researcher and engineer from Orlando, FL,
         <br />
-        with a strong interest in Artificial Intelligence and Machine Learning,
+        with a strong focus on Deep Learning and Foundation Models.
         <br />
-        exploring cutting-edge AI research and building intelligent AI systems
+        I bridge the gap between novel AI research and scalable deployment,
         <br />
-        to solve complex, real-world problems.
+        building intelligent systems to tackle complex, real-world reasoning challenges.
       </motion.p>
     </div>
   );
