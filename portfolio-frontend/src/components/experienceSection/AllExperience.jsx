@@ -5,7 +5,7 @@ const experiences = [
     icon: "./motorolasolutions.png",
     job: "GenAI & ML Intern",
     company: "Motorola Solutions",
-    date: "May 2025 - August 2025",
+    date: "May 2026 - August 2026",
     responsibilities: [
       "Probing frozen Gemini embeddings of ~2,800 transcripts to test a 1,000+ category intent taxonomy, achieving 54.6%/60.6% accuracy and 93.3% top-3 accuracy.",
       "Reframing weak clustering results (ARI ≈ 0.16) as a taxonomy-granularity artifact through probing experiments and stratified cross-validation.",
