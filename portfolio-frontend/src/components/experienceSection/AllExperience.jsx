@@ -18,7 +18,7 @@ const experiences = [
     icon: "./Create&Learn.png",
     job: "AI/CS Instructor",
     company: "Create & Learn",
-    date: "June 2025 - Present",
+    date: "June 2025 - August 2026",
     responsibilities: [
       "Teaching advanced, project-based classes on Python, machine learning, and deep learning to middle and high school students through live Zoom sessions.",
       "Guiding students through the complete AI development pipeline, including data preprocessing, model training, tuning, and evaluation using hands-on projects.",
