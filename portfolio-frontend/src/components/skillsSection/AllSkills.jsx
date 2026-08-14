@@ -17,6 +17,8 @@ import {
   SiPostman,
   SiTensorflow,
   SiNextdotjs,
+  SiFastapi,
+  SiLanggraph,
   SiScikitlearn,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
@@ -74,8 +76,8 @@ const librariesFrameworks = [
     icon: SiScikitlearn,
   },
   {
-    skill: "Streamlit",
-    icon: SiStreamlit,
+    skill: "LangChain",
+    icon: SiLanggraph,
   },
   {
     skill: "Numpy",
@@ -84,6 +86,14 @@ const librariesFrameworks = [
   {
     skill: "Pandas",
     icon: SiPandas,
+  },
+  {
+    skill: "FastApi",
+    icon: SiFastapi,
+  },
+  {
+    skill: "Streamlit",
+    icon: SiStreamlit,
   },
   {
     skill: "CSS",
@@ -162,10 +172,9 @@ const AllSkills = () => {
           onClick={setLanguages}
           disabled={showLanguages}
           className={`w-24 sm:w-auto px-3 py-1 rounded-full text-sm sm:px-4 sm:py-2 sm:text-base md:px-5 md:py-3 md:text-lg font-bold text-white border flex items-center gap-1 transition-all duration-500
-            ${
-              showLanguages
-                ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
-                : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
+            ${showLanguages
+              ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
+              : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
             }
             `}
         >
@@ -175,10 +184,9 @@ const AllSkills = () => {
           onClick={setLibrariesFrameworks}
           disabled={showLibrariesFrameworks}
           className={`w-40 sm:w-auto px-3 py-1 rounded-full text-sm sm:px-4 sm:py-2 sm:text-base md:px-5 md:py-3 md:text-lg font-bold text-white border flex items-center gap-1 transition-all duration-500
-            ${
-              showLibrariesFrameworks
-                ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
-                : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
+            ${showLibrariesFrameworks
+              ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
+              : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
             }
             `}
         >
@@ -188,10 +196,9 @@ const AllSkills = () => {
           onClick={setDeveloperTools}
           disabled={showDeveloperTools}
           className={`w-32 sm:w-auto px-3 py-1 rounded-full text-sm sm:px-4 sm:py-2 sm:text-base md:px-5 md:py-3 md:text-lg font-bold text-white border flex items-center gap-1 transition-all duration-500
-            ${
-              showDeveloperTools
-                ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
-                : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
+            ${showDeveloperTools
+              ? "bg-gradient-to-r from-lightGrey to-black bg-gray-800 cursor-default hover:none border-darkGrey"
+              : "border-cyan bg-gradient-to-r from-cyan to-orange hover:border-orange hover:scale-110 hover:shadow-cyanShadow"
             }
             `}
         >
