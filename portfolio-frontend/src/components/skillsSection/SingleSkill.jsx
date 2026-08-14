@@ -9,7 +9,7 @@ const SingleSkill = ({ imgSvg, text }) => {
         >
           {imgSvg}
         </div>
-        <p className="text-white font-bold">{text}</p>
+        <p className="text-white font-bold text-center">{text}</p>
       </div>
     </div>
   );

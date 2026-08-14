@@ -18,14 +18,26 @@ import {
   SiTensorflow,
   SiNextdotjs,
   SiFastapi,
-  SiLanggraph,
+  SiLangchain,
   SiScikitlearn,
+  SiGooglecloud,
+  SiFirebase,
+  SiGooglecloudstorage,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa6";
 import { SiStreamlit } from "react-icons/si";
 import { IoLogoVue, IoLogoDocker } from "react-icons/io5";
+
+import {
+  AdkIcon,
+  MatplotlibIcon,
+  VertexAiIcon,
+  CloudRunIcon,
+  CloudBuildIcon,
+  LangGraphIcon,
+} from "./CustomIcons";
 
 import SingleSkill from "./SingleSkill";
 import { motion } from "framer-motion";
@@ -77,7 +89,19 @@ const librariesFrameworks = [
   },
   {
     skill: "LangChain",
-    icon: SiLanggraph,
+    icon: SiLangchain,
+  },
+  {
+    skill: "LangGraph",
+    icon: LangGraphIcon,
+  },
+  {
+    skill: "Google ADK",
+    icon: AdkIcon,
+  },
+  {
+    skill: "Matplotlib",
+    icon: MatplotlibIcon,
   },
   {
     skill: "Numpy",
@@ -133,6 +157,30 @@ const developerTools = [
   {
     skill: "PostMan",
     icon: SiPostman,
+  },
+  {
+    skill: "GCP",
+    icon: SiGooglecloud,
+  },
+  {
+    skill: "Vertex AI",
+    icon: VertexAiIcon,
+  },
+  {
+    skill: "Cloud Run",
+    icon: CloudRunIcon,
+  },
+  {
+    skill: "Firestore",
+    icon: SiFirebase,
+  },
+  {
+    skill: "Cloud Build",
+    icon: CloudBuildIcon,
+  },
+  {
+    skill: "Cloud Storage",
+    icon: SiGooglecloudstorage,
   },
 ];
 
@@ -205,24 +253,10 @@ const AllSkills = () => {
           Developer Tools
         </button>
       </motion.div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 my-20">
-        {showLanguages &&
-          languages.map((item, index) => (
-            <motion.div
-              key={index}
-              variants={fadeIn("up", index * 0.1)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: false, amount: 0 }}
-            >
-              <SingleSkill text={item.skill} imgSvg={<item.icon />} />
-            </motion.div>
-          ))}
-      </div>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 my-20">
-        {showLibrariesFrameworks &&
-          librariesFrameworks.map((item, index) => (
+      {showLanguages && (
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 my-20">
+          {languages.map((item, index) => (
             <motion.div
               key={index}
               variants={fadeIn("up", index * 0.1)}
@@ -233,11 +267,12 @@ const AllSkills = () => {
               <SingleSkill text={item.skill} imgSvg={<item.icon />} />
             </motion.div>
           ))}
-      </div>
+        </div>
+      )}
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 my-20">
-        {showDeveloperTools &&
-          developerTools.map((item, index) => (
+      {showLibrariesFrameworks && (
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 my-20">
+          {librariesFrameworks.map((item, index) => (
             <motion.div
               key={index}
               variants={fadeIn("up", index * 0.1)}
@@ -248,7 +283,24 @@ const AllSkills = () => {
               <SingleSkill text={item.skill} imgSvg={<item.icon />} />
             </motion.div>
           ))}
-      </div>
+        </div>
+      )}
+
+      {showDeveloperTools && (
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 my-20">
+          {developerTools.map((item, index) => (
+            <motion.div
+              key={index}
+              variants={fadeIn("up", index * 0.1)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0 }}
+            >
+              <SingleSkill text={item.skill} imgSvg={<item.icon />} />
+            </motion.div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
